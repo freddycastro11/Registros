@@ -1,16 +1,16 @@
 *{
-    margin: 0;
+    margin: 0;/*Letras*/
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
 
-body{
+body /*Fondo*/{
     background: url(/docen.jpg) no-repeat center  top;
-    background-size: cover;
+    background-size: cover; 
 }
 
-.container{
+.container{/*Letras de registro*/
     width: 100%;
     height: 100vh;
     padding: 10px;
@@ -19,7 +19,7 @@ body{
     align-items: center;
 }
 
-.login-container{
+.login-container{/*cuadro*/
     display: flex;
     width: 650px;
     height: auto;
@@ -41,7 +41,7 @@ body{
     margin-bottom: 30px;
 }
 
-.register input{
+.register input{/*Quitarle cosas al boton */
     width: 100%;
     padding: 5px;
     font-size: 16px;
@@ -56,7 +56,7 @@ body{
 .register input:focus{
     outline: none;
 }
-.register .submit{
+.register .submit{/*Boron resgistrar*/
     width: auto;
     padding: 10px;
     background: #f17108;
@@ -66,7 +66,7 @@ body{
     cursor: pointer;
 }
 
-.register::after{
+.register::after{/*La cosa de en medio*/
     content: '>';
     position: absolute;
     width: 25px;
@@ -83,7 +83,7 @@ body{
     color: #7c7c7c;
 }
 
-.login{
+.login{/*Fonde desgradado*/
     background-image: linear-gradient(to bottom right, #1ab6b6, #4cac6e);
     padding: 40px;
 
@@ -124,7 +124,7 @@ body{
     color: #fff;
 }
 
-@media only screen and (max-width: 540px){
+@media only screen and (max-width: 540px){/*Para que se pase hacia abajo*/
     .login-container{
         display: block;
     }
