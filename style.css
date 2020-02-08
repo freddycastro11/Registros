@@ -6,7 +6,8 @@
 }
 
 body{
-    background: #f1f1f1;
+    background: url(/docen.jpg) no-repeat center  top;
+    background-size: cover;
 }
 
 .container{
