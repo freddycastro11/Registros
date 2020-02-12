@@ -1,3 +1,4 @@
+/*Programa hecho por Freddy Castro y Odvan Serrano*/
 *{
     margin: 0;/*Letras*/
     padding: 0;
@@ -5,7 +6,7 @@
     font-family: "Roboto", sans-serif;
 }
 
-body /*Fondo*/{
+body /*Imagen con derechos de autor desconocidos*/{
     background: url(/docen.jpg) no-repeat center  top;
     background-size: cover; 
 }
